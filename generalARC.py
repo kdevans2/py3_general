@@ -1,11 +1,20 @@
-# ---------------------------------------------------------------------------
-# generalARC.py
-# Kirk Evans 5/18 TetraTech EC
-# Commonly used utility functions related to ARCGIS Pro
-#
-# Known limitations: python 3
-# ---------------------------------------------------------------------------
-import arcpy, os, csv
+"""
+---------------------------------------------------------------------------
+ generalARC.py
+ 
+  Kirk D Evans 05/2018 kdevans@fs.fed.us
+    TetraTech EC for:
+    USDA Forest Service
+    Region 5 Remote Sensing Lab
+    
+ Commonly used utility functions related to ARCGIS Pro
+
+ Known limitations: python 3
+---------------------------------------------------------------------------
+"""
+import os
+import csv
+import arcpy
 
 # ---------------------------------------------------------------------------
 # general
@@ -36,7 +45,7 @@ def DeleteIntermediatesARC(lstDel, bolVerbose = True):
 # all raster related arcgis functions now found in:
 #   N:\code\kdevans\python3\modules\rasterARCUtility.py
 # Keep moved rasterARCUtility functions and classes visible to generalARC
-from rasterARCUtility import *
+from raster.rasterARCUtility import *
 
 # ---------------------------------------------------------------------------
 # Table related   

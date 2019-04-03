@@ -22,10 +22,10 @@ import time
 import multiprocessing
 import pickle
 import subprocess
-import general as g
-import poolResults as poolR
+import py3_general.general as g
+import py3_general.poolResults as poolR
 # below import so that other scripts still find task objects 
-from poolTasks import *
+from py3_general.poolTasks import *
 
 # ---------------------------------------------------------------------------
 # worker and wrapper functions

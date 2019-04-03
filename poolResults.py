@@ -13,7 +13,7 @@
 ---------------------------------------------------------------------------
 """
 import pickle
-import general as gen
+import py3_general.general as gen
 
 # ----------------------------------------
 # result classes
